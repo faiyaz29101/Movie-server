@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.TransferMovieController">
+   <children>
+      <Label layoutX="30.0" layoutY="41.0" text="Input Movie Name" />
+      <TextField fx:id="moviename" layoutX="30.0" layoutY="71.0" prefHeight="25.0" prefWidth="341.0" promptText="name" />
+      <Label layoutX="30.0" layoutY="116.0" text="Input Desied Production Company" />
+      <TextField fx:id="productioncompanyname" layoutX="30.0" layoutY="146.0" prefHeight="25.0" prefWidth="341.0" promptText="production company" />
+      <Button contentDisplay="CENTER" layoutX="174.0" layoutY="198.0" mnemonicParsing="false" onAction="#OnSubmitClick" text="Submit" />
+      <TextArea fx:id="output" layoutX="29.0" layoutY="234.0" prefHeight="215.0" prefWidth="341.0" />
+      <Button layoutX="175.0" layoutY="459.0" mnemonicParsing="false" onAction="#OnGoBackClick" text="Go Back" />
+   </children>
+</AnchorPane>

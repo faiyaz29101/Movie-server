@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.SearchProductionCompanyController">
+   <children>
+      <Label layoutX="142.0" layoutY="72.0" text="Please Choose Option" />
+      <Button layoutX="171.0" layoutY="325.0" mnemonicParsing="false" onAction="#OnGoBackClick" text="Go Back" />
+      <Button layoutX="106.0" layoutY="148.0" mnemonicParsing="false" onAction="#OnMaximumRevenue" text="Movies With Maximum Revenue" />
+      <Button layoutX="163.0" layoutY="191.0" mnemonicParsing="false" onAction="#OnTotalProfitClick" text="Total Profit" />
+      <Button layoutX="163.0" layoutY="238.0" mnemonicParsing="false" onAction="#OnProductionCompanyAddMovieClick" text="Add Movie" />
+      <Button layoutX="139.0" layoutY="103.0" mnemonicParsing="false" onAction="#OnMostRecentMovies" text="Most Recent Movies" />
+      <Button layoutX="154.0" layoutY="284.0" mnemonicParsing="false" onAction="#OnTransferMovieClick" text="Transfer Movie" />
+   </children>
+</AnchorPane>

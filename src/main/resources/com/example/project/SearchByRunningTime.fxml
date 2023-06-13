@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.SearchByRunningTimeController">
+   <children>
+      <Label layoutX="35.0" layoutY="52.0" text="Input Minimum Duration" />
+      <Label layoutX="218.0" layoutY="52.0" text="Input Maximum Duration" />
+      <TextField fx:id="mintime" layoutX="35.0" layoutY="82.0" promptText="minimum" />
+      <TextField fx:id="maxtime" layoutX="218.0" layoutY="82.0" promptText="maximum" />
+      <Button layoutX="174.0" layoutY="117.0" mnemonicParsing="false" onAction="#OnSearchClick" text="Search!" />
+      <Button layoutX="181.0" layoutY="461.0" mnemonicParsing="false" onAction="#OnGoBackClick" text="Go Back" />
+      <TextArea fx:id="outputruntime" layoutX="35.0" layoutY="158.0" prefHeight="295.0" prefWidth="333.0" />
+   </children>
+</AnchorPane>

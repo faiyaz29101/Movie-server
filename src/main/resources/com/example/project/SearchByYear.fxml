@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.SearchByYearController">
+    <children>
+        <TextField fx:id="year" layoutX="45.0" layoutY="57.0" prefHeight="25.0" prefWidth="233.0" promptText="year" />
+        <Label layoutX="45.0" layoutY="33.0" text="Input Release Year" />
+        <Button layoutX="284.0" layoutY="57.0" mnemonicParsing="false" onAction="#OnYearSearchClick" text="Search!" />
+        <TextArea fx:id="outputyear" layoutX="45.0" layoutY="96.0" prefHeight="352.0" prefWidth="297.0" />
+        <Button layoutX="168.0" layoutY="461.0" mnemonicParsing="false" onAction="#OnGoBackClick" text="Go Back" />
+    </children>
+</AnchorPane>
